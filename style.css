@@ -18,6 +18,16 @@ p{
 }
 span{
     letter-spacing: 1px;
+    color: #fff;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
 }
 #mobilenet{
     letter-spacing: 2px;
@@ -34,9 +44,9 @@ span{
     box-shadow: 0 0 50px white;
 }
 .bottom{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     position: fixed;
-    bottom: 0;
+    bottom: -1 ;
     text-align: center;
     width: 100%;
     font-family: 'Roboto Slab', serif;
@@ -44,11 +54,11 @@ span{
     0 0 7px #fff,
     0 0 10px #fff,
     0 0 21px #fff,
-    0 0 42px #0fa,
-    0 0 82px #0fa,
-    0 0 92px #0fa,
-    0 0 102px #0fa,
-    0 0 151px #0fa;
+    0 0 42px rgb(0, 229, 255),
+    0 0 82px rgb(0, 229, 255),
+    0 0 92px rgb(0, 229, 255),
+    0 0 102px rgb(0, 229, 255),
+    0 0 151px rgb(0, 229, 255);
 }
 .img{
     margin-top: 10px;
@@ -72,7 +82,7 @@ span{
     0 0 151px #0fa;
     
 }
-.test_image_and_result1,.test_image_and_result2,.test_image_and_result3,.test_image_and_result4,.test_image_and_result5,.test_image_and_result6,.test_image_and_result7,.test_image_and_result8,.test_image_and_result9{
+.test_image_and_result1,.test_image_and_result2,.test_image_and_result3,.test_image_and_result4,.test_image_and_result5{
     margin-top: 15px;
     background-color: rgb(155, 153, 153);
     border-radius: 10px;
@@ -80,7 +90,7 @@ span{
     width:99%;
     margin-bottom: 15px;
 }
-.white1,.white2,.white3,.white4,.white5,.white6,.white7,.white8,.white9{
+.white1,.white2,.white3,.white4,.white5{
     color: white;
 }
 span{
@@ -113,5 +123,18 @@ h4{
     0 0 82px rgb(0, 255, 242),
     0 0 92px rgb(0, 255, 242),
     0 0 102px rgb(0, 255, 242),
-    0 0 151px rgb(0, 255, 242),
+    0 0 151px rgb(0, 255, 242);
+}
+.final_result{
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+    border-radius: 10px;
+    margin-bottom: 15px;
 }
